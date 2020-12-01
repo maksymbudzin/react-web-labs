@@ -29,14 +29,6 @@ export const CopyrightText = styled.div`
   color: white;
   font-family: "Comic Sans MS", sans-serif ;
 `;
-export const Logo = styled.a`
-  text-decoration: none;
-  font-weight: 900;
-  font-size: 2.25rem;
-  color: white;
-  cursor: pointer;
-  font-family: "Comic Sans MS", sans-serif ;
-`;
 
 export const Socials = styled.ul`
   display: flex;

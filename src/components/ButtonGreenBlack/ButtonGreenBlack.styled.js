@@ -1,7 +1,8 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-export const ButtonPB = styled.a`
-  text-decoration: none;
+export const ButtonPB = styled(Link)`
+text-decoration: none;
   background: #010101;
   color: #ffffff;
   cursor: pointer;

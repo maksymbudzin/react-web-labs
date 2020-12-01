@@ -1,34 +1,34 @@
 import React from "react";
 import {
-    HeroContainer,
-    HeroBackground,
-    HeroH1,
-    HeroButtonWrapper,
-    HeroP,
-    HeroContent,
+  MainContainer,
+  MainBackground,
+  MainH,
+  MainButtonWrapper,
+  MainP,
+  MainContent,
 } from "./Main.styled";
+
 import { ButtonPB } from "../../components/ButtonGreenBlack/ButtonGreenBlack.styled";
 
-
 const Main = () => {
-    return (
-        <HeroContainer>
-            <HeroBackground>
-               <img src="/images/emerald.jpg" alt=""/>
-            </HeroBackground>
-            <HeroContent>
-                <HeroH1>You can shop gamestones here!!</HeroH1>
-                <HeroP>
-                    Largest Collection of Loose Gemstones for Sale
-                </HeroP>
-                <HeroButtonWrapper>
-                    <ButtonPB href="/catalog" style={{ marginTop: "4rem" }}>
-                        Buy!!
-                    </ButtonPB>
-                </HeroButtonWrapper>
-            </HeroContent>
-        </HeroContainer>
-    );
+  return (
+    <MainContainer>
+      <MainBackground>
+        <img src="/images/emerald.jpg" alt=""/>
+      </MainBackground>
+      <MainContent>
+        <MainH>You can shop gamestones here!!</MainH>
+        <MainP>
+          Largest Collection of Loose Gemstones for Sale
+        </MainP>
+        <MainButtonWrapper>
+          <ButtonPB to="/catalog" style={{ marginTop: "5.5rem" }}>
+            Buy!!
+          </ButtonPB>
+        </MainButtonWrapper>
+      </MainContent>
+    </MainContainer>
+  );
 };
 
 export default Main;

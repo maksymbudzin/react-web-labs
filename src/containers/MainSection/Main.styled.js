@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const HeroContainer = styled.div`
+export const MainContainer = styled.div`
   background-image: url("sre/videos/emerald.jpg") ;
   display: flex;
   justify-content: center;
@@ -9,8 +9,7 @@ export const HeroContainer = styled.div`
   position: relative;
 `;
 
-
-export const HeroBackground = styled.div`
+export const MainBackground = styled.div`
   position: absolute;
   top: 0;
   right: 0;
@@ -21,18 +20,16 @@ export const HeroBackground = styled.div`
   overflow: hidden;
 `;
 
-
-export const HeroContent = styled.div`
+export const MainContent = styled.div`
   z-index: 3;
   max-width: 1500px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 3rem;
-    
 `;
-export const HeroH1 = styled.h1`
-  color: #101010;
+export const MainH = styled.h1`
+   color: #101010;
   font-size: 50px;
   text-align: center;
   font-weight: 800;
@@ -43,10 +40,9 @@ export const HeroH1 = styled.h1`
   --darkreader-inline-bgcolor: #825f5f;
   text-align: center;
   font-weight: bold;
-   
 `;
-export const HeroP = styled.p`
-  color: #ffffff;
+export const MainP = styled.p`
+ color: #ffffff;
   font-size: 31px;
   margin-top: 6%;
   max-width: 50%;
@@ -58,9 +54,8 @@ export const HeroP = styled.p`
   text-align: center;
   font-weight: bold;
 `;
-export const HeroButtonWrapper = styled.div`
+export const MainButtonWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "Comic Sans MS", sans-serif ;
 `;

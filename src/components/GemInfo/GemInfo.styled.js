@@ -16,13 +16,14 @@ export const Image = styled.img`
 export const Title = styled.h2`
   width: 100%;
   text-align: center;
+   
 `;
 
 export const Description = styled.p`
   margin: 1rem 0;
 `;
 export const PriceFrom = styled.a`
-  font-size: 85%;
+ font-size: 85%;
   text-decoration: none;
   background: black;
   color: #ffffff;

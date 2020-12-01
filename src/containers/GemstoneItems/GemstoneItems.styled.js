@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
-
-
-export const GemstoneContainer = styled.div`
+export const CatalogPreviewContainer = styled.div`
   display: flex;
   background-image: url("/images/fon-zelenyi-podsvetka-kamen.jpg");
   justify-content: center;
@@ -11,7 +9,7 @@ export const GemstoneContainer = styled.div`
   position: relative;
 `;
 
-export const GemstoneContent = styled.div`
+export const CatalogPreviewContent = styled.div`
   height: 55%;
   display: flex;
   justify-content: space-between;
@@ -20,7 +18,6 @@ export const GemstoneContent = styled.div`
 `;
 
 export const GemstonesPreview = styled.div`
- 
   width: 85%;
   display: flex;
   justify-content: space-between;

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const BenefitItemContainer = styled.div`
+export const WhyUsItemContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -8,12 +8,12 @@ export const BenefitItemContainer = styled.div`
   margin-left: 3rem;
 `;
 
-export const BenefitItemImage = styled.img`
+export const WhyUsItemImage = styled.img`
   max-width: 100px;
   max-height: 100px;
 `;
 
-export const BenefitTitle = styled.h3`
+export const WhyUsItemTitle = styled.h3`
   margin-top: 2rem;
   color: white;
 `;
