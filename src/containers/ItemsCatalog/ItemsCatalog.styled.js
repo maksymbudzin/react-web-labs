@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const AllGemstones = styled.div`
-  height: 325px;
+  height: 370px;
   display: flex;
   flex-wrap: wrap;
   padding: 0.5rem 3rem 3rem 3rem;
@@ -10,3 +10,4 @@ export const AllGemstones = styled.div`
   opacity: 0.96;
   color: white;
 `;
+

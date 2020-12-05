@@ -1,33 +1,34 @@
 import React from "react";
 import {
-  MainContainer,
-  MainBackground,
-  MainH,
-  MainButtonWrapper,
-  MainP,
-  MainContent,
+  HeroContainer,
+  HeroBackground,
+  VideoBackground,
+  HeroH1,
+  HeroButtonWrapper,
+  HeroP,
+  HeroContent,
 } from "./Main.styled";
 
 import { ButtonPB } from "../../components/ButtonGreenBlack/ButtonGreenBlack.styled";
 
 const Main = () => {
   return (
-    <MainContainer>
-      <MainBackground>
+    <HeroContainer>
+      <HeroBackground>
         <img src="/images/emerald.jpg" alt=""/>
-      </MainBackground>
-      <MainContent>
-        <MainH>You can shop gamestones here!!</MainH>
-        <MainP>
+      </HeroBackground>
+      <HeroContent>
+        <HeroH1>You can shop gemstones here!!</HeroH1>
+        <HeroP>
           Largest Collection of Loose Gemstones for Sale
-        </MainP>
-        <MainButtonWrapper>
+        </HeroP>
+        <HeroButtonWrapper>
           <ButtonPB to="/catalog" style={{ marginTop: "5.5rem" }}>
             Buy!!
           </ButtonPB>
-        </MainButtonWrapper>
-      </MainContent>
-    </MainContainer>
+        </HeroButtonWrapper>
+      </HeroContent>
+    </HeroContainer>
   );
 };
 

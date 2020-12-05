@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const MainContainer = styled.div`
+export const HeroContainer = styled.div`
   background-image: url("sre/videos/emerald.jpg") ;
   display: flex;
   justify-content: center;
@@ -9,7 +9,7 @@ export const MainContainer = styled.div`
   position: relative;
 `;
 
-export const MainBackground = styled.div`
+export const HeroBackground = styled.div`
   position: absolute;
   top: 0;
   right: 0;
@@ -20,7 +20,7 @@ export const MainBackground = styled.div`
   overflow: hidden;
 `;
 
-export const MainContent = styled.div`
+export const HeroContent = styled.div`
   z-index: 3;
   max-width: 1500px;
   display: flex;
@@ -28,7 +28,7 @@ export const MainContent = styled.div`
   align-items: center;
   margin-bottom: 3rem;
 `;
-export const MainH = styled.h1`
+export const HeroH1 = styled.h1`
    color: #101010;
   font-size: 50px;
   text-align: center;
@@ -41,7 +41,7 @@ export const MainH = styled.h1`
   text-align: center;
   font-weight: bold;
 `;
-export const MainP = styled.p`
+export const HeroP = styled.p`
  color: #ffffff;
   font-size: 31px;
   margin-top: 6%;
@@ -54,7 +54,7 @@ export const MainP = styled.p`
   text-align: center;
   font-weight: bold;
 `;
-export const MainButtonWrapper = styled.div`
+export const HeroButtonWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;

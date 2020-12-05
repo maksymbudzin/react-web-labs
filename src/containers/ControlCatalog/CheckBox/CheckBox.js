@@ -22,7 +22,18 @@ const gemstoneTypes = [
     id: 4,
     type: "Opal",
   },
-
+  {
+    id: 5,
+    type: "Perl",
+  },
+  {
+    id: 6,
+    type: "Sapphire",
+  },
+  {
+    id: 7,
+    type: "Emerald",
+  },
 ];
 
 const renderCheckboxList = () =>
@@ -37,7 +48,7 @@ function CheckBox() {
   return (
     <div style={{ width: "30%", display: "flex", flexDirection: "column" }}>
       <Accordion
-        style={{ background: "#18341F", color: "white", border: "4.5px solid black", borderRadius : "1.5rem"  }}
+        style={{ background: "black", color: "white" }}
         defaultExpanded={true}
       >
         <AccordionSummary
@@ -45,7 +56,7 @@ function CheckBox() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <CheckTitle>Choose gems:</CheckTitle>
+          <CheckTitle>Choose gemstone type:</CheckTitle>
         </AccordionSummary>
 
         <AccordionDetails>
@@ -55,6 +66,5 @@ function CheckBox() {
     </div>
   );
 }
-
 
 export default CheckBox;

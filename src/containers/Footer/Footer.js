@@ -12,26 +12,26 @@ import {
 import { GemLogo } from "../../components/Logo/Logo.styled";
 const Footer = () => {
   return (
-    <FooterContainer>
-      <FooterInfo>
-        <Email>gemstoneshop@gmail.com</Email>
-        <GemLogo href="/">GEMSTONE</GemLogo>
-        <Socials>
-          <YouTubeIcon
-              style={{ fontSize: 40, color: "red", cursor: "pointer" }}
-          />
-          <InstagramIcon
-              style={{ fontSize: 40, color: "black", cursor: "pointer" }}
-          />
-          <FacebookIcon
-              style={{ fontSize: 40, color: "blue", cursor: "pointer" }}
-          />
-        </Socials>
-      </FooterInfo>
-      <CopyrightText>
-        Copyright © 2020 GemsShop.com - All Rights Reserved
-      </CopyrightText>
-    </FooterContainer>
+      <FooterContainer>
+        <FooterInfo>
+          <Email>gemstones@gmail.com</Email>
+          <GemLogo href="/">GEMSTONE</GemLogo>
+          <Socials>
+            <YouTubeIcon
+                style={{ fontSize: 40, color: "red", cursor: "pointer" }}
+            />
+            <InstagramIcon
+                style={{ fontSize: 40, color: "black", cursor: "pointer" }}
+            />
+            <FacebookIcon
+                style={{ fontSize: 40, color: "blue", cursor: "pointer" }}
+            />
+          </Socials>
+        </FooterInfo>
+        <CopyrightText>
+          Copyright © 2020 Gemstones.com - All Rights Reserved
+        </CopyrightText>
+      </FooterContainer>
   );
 };
 

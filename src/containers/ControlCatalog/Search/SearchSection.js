@@ -1,7 +1,7 @@
 import React from "react";
 import { Search } from "./SearchSection.styled";
-function SearchSection() {
-  return <Search placeholder="Type to search..." />;
+function SearchSection({ handleInput }) {
+  return <Search onChange={handleInput} placeholder="Search..." />;
 }
 
 export default SearchSection;

@@ -6,7 +6,7 @@ import {
 } from "./GemstoneItems.styled";
 import GemstonePreviewItem from "../../components/GemInfo/GemInfo";
 import TopazImage from "../../icons/397-topaz-blog-73662901096110_small.jpg";
-import SmaragdImage from "../../icons/394-smaragd-artikel-98970688109946_small.jpg";
+import SmaragdImage from  "../../icons/394-smaragd-artikel-98970688109946_small.jpg";
 import SapfireImage from "../../icons/400-sapfire-blog-40945721330203_small.jpg";
 import { ButtonPB } from "../../components/ButtonGreenBlack/ButtonGreenBlack.styled";
 const GemstoneItems = () => {

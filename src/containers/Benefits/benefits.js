@@ -8,20 +8,20 @@ import RealPhotos from "../../icons/90536488179637.jpg";
 import { ButtonPB } from "../../components/ButtonGreenBlack/ButtonGreenBlack.styled";
 
 const Benefits = () => {
-  return (
-    <WhyUsContainer>
-      <WhyUsPoints>
-          <BenefitItem image={Orders} text={"Orders from 1 unit"} />
-          <BenefitItem image={FastDelivery} text={"Fast delivery"} />
-          <BenefitItem image={RealPhotos} text={"Real photos"} />
-          <BenefitItem image={SelectPhoto} text={"selection by photo"}
-          />
-      </WhyUsPoints>
-      <ButtonPB to="/about" style={{ marginBottom: "2rem" }}>
-        About Us
-      </ButtonPB>
-    </WhyUsContainer>
-  );
+    return (
+        <WhyUsContainer>
+            <WhyUsPoints>
+                <BenefitItem image={Orders} text={"Orders from 1 unit"} />
+                <BenefitItem image={FastDelivery} text={"Fast delivery"} />
+                <BenefitItem image={RealPhotos} text={"Real photos"} />
+                <BenefitItem image={SelectPhoto} text={"selection by photo"}
+                />
+            </WhyUsPoints>
+            <ButtonPB to="/about" style={{ marginBottom: "2rem" }}>
+                About Us
+            </ButtonPB>
+        </WhyUsContainer>
+    );
 };
 
 export default Benefits;
